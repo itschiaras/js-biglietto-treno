@@ -44,7 +44,7 @@ if (!isNaN(age) && !isNaN(kilometers)) {
             </div>
         </div>`;
 
-    } else if (age > 65) {
+    } else if (age >= 65) {
         ticketPrice -= ((ticketPrice / 100) * 40);
         console.log(ticketPrice);
         ticketPrice = ticketPrice.toFixed(2);
