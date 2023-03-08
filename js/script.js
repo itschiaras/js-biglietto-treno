@@ -39,7 +39,7 @@ if (!isNaN(age) && !isNaN(kilometers)) {
         <div class="card shadow w-50 text-center mt-5">
             <div class="card-body">
             <h1 class="card-title " id="price"> 
-            Il costo del tuo biglietto sarà di &euro;: ${ticketPrice} </h1>
+            Il costo del tuo biglietto sarà di: ${ticketPrice} &euro;</h1>
             <a href="#" class="btn btn-primary">Procedi all'acquisto</a>
             </div>
         </div>`;
@@ -53,7 +53,7 @@ if (!isNaN(age) && !isNaN(kilometers)) {
         <div class="card shadow w-50 text-center mt-5">
             <div class="card-body">
             <h1 class="card-title " id="price"> 
-            Il costo del tuo biglietto sarà di &euro;: ${ticketPrice} </h1>
+            Il costo del tuo biglietto sarà di: ${ticketPrice} &euro; </h1>
             <a href="#" class="btn btn-primary">Procedi all'acquisto</a>
             </div>
         </div>`
@@ -62,7 +62,7 @@ if (!isNaN(age) && !isNaN(kilometers)) {
         <div class="card shadow w-50 text-center mt-5">
             <div class="card-body">
             <h1 class="card-title " id="price"> 
-            Il costo del tuo biglietto sarà di &euro;: ${ticketPrice} </h1>
+            Il costo del tuo biglietto sarà di: ${ticketPrice} &euro; </h1>
             <a href="#" class="btn btn-primary">Procedi all'acquisto</a>
             </div>
         </div>`
